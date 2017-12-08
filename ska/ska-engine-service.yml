@@ -2,7 +2,7 @@ camunda.bpm:
   admin-user:
     id: admin
     password: test
-    firstName: CycleonAdmin
+    firstName: CycleonSCA
   filter:
     create: All tasks
 
