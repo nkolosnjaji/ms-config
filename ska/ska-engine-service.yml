@@ -11,3 +11,7 @@ spring.datasource.url: "jdbc:mysql://localhost:3306/camunda"
 spring.datasource.username: root
 spring.datasource.password: root
 camunda.bpm.database.type: mysql
+
+management:
+  security:
+    enabled: false
