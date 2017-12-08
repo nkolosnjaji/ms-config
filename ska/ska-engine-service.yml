@@ -5,3 +5,9 @@ camunda.bpm:
     firstName: CycleonAdmin
   filter:
     create: All tasks
+
+# Database configuration
+spring.datasource.url: "jdbc:mysql://localhost:3306/camunda"
+spring.datasource.username: root
+spring.datasource.password: root
+camunda.bpm.database.type: mysql
